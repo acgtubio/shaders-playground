@@ -1,15 +1,17 @@
-# basic
+# What is this?
 
-To install dependencies:
+This serves as my playground while learning about shaders, WebGL and GLSL.
+
+If the codes looks horrible, that's because it is.
+
+# Resources Used
+
+[The Book of Shaders](https://thebookofshaders.com)
+
+# How to Run 
 
 ```bash
-bun install
+bun serve 
 ```
 
-To run:
-
-```bash
-bun run index.js
-```
-
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Open shader.html
