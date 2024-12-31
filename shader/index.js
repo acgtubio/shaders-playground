@@ -105,10 +105,11 @@ async function run(canvas) {
 		gl.uniform2f(u_mouse_loc, mouseX, mouseY);
 	});
 
+	const timeStart = new Date();
 	function getNormalTime() {
-		const ms = new Date().getUTCMilliseconds();
+		const ms = new Date() - timeStart;
 
-		let t = ms / (1000) * Math.PI;
+		let t = (ms / 1000) * (Math.PI / 3);
 
 		return t;
 	}
